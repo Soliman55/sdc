@@ -5,7 +5,7 @@ var EL = new ELEMENTS_CLASS();
 /**
  * class that draw simple elements
  * 
- * @author ViliusL
+ * @author MeowChain Lab
  */
 function ELEMENTS_CLASS() {
 
