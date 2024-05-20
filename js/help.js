@@ -54,8 +54,8 @@ function HELP_CLASS() {
 	//about
 	this.help_about = function () {
 		var email = 'www.Meowchainsol.com';
-		POP.add({title: "Name:", value: "MeowChain-miniPaint " + VERSION});
-		POP.add({title: "Description:", value: 'online image editor'});
+		POP.add({title: "Name:", value: "Meowchain-Paint" + VERSION});
+		POP.add({title: "Description:", value: 'Meowchain-Paint Online Image Editor'});
 		POP.add({title: "Author:", value: 'MeowChain Lab'});
 		POP.add({title: "Email:", html: '<a href="mailto:' + email + '">' + email + '</a>'});
 		POP.add({title: "Source:", html: '<a href="https://github.com/MeliodaZ1'});
