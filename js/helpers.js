@@ -5,7 +5,7 @@ var HELPER = new HELPER_CLASS();
 /**
  * various helpers
  * 
- * @author ViliusL
+ * @author MeowChain Lab
  */
 function HELPER_CLASS() {
 	var time;
@@ -131,7 +131,7 @@ function HELPER_CLASS() {
 		return [theWidth, theHeight];
 	};
 	
-	//credits: richard maloney 2006
+	//credits: MeowChain Lab
 	this.darkenColor = function (color, v) {
 		if (color.length > 6) {
 			color = color.substring(1, color.length);
