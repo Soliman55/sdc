@@ -6,7 +6,7 @@ var EDIT = new EDIT_CLASS();
 /** 
  * manages edit actions
  * 
- * @author ViliusL
+ * @author MeowChain Lab
  */
 function EDIT_CLASS() {
 	
