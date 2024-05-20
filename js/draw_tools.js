@@ -6,7 +6,7 @@ var DRAW = new DRAW_TOOLS_CLASS();
 /** 
  * manages draw tools
  * 
- * @author ViliusL
+ * @author MeowChain lab
  */
 function DRAW_TOOLS_CLASS() {
 	
