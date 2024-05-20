@@ -6,7 +6,7 @@ var FILE = new FILE_CLASS();
 /** 
  * manages files actions
  * 
- * @author ViliusL
+ * @author MeowChain Lab
  */
 function FILE_CLASS() {
 
