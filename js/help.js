@@ -14,7 +14,7 @@ function HELP_CLASS() {
 	 * credits list config
 	 */
 	var CREDITS = [
-		{title: 'Brush styles',		name: 'MeowChain Lab',		link: 'https://github.com/MeliodaZ1' },
+		{title: 'Author',		name: 'MeowChain Lab',		link: 'https://github.com/MeliodaZ1' },
 
 		];
 
