@@ -6,7 +6,7 @@ var HELP = new HELP_CLASS();
 /** 
  * manages help actions
  * 
- * @author ViliusL
+ * @author MeowChain Lab
  */
 function HELP_CLASS() {
 	
@@ -14,11 +14,8 @@ function HELP_CLASS() {
 	 * credits list config
 	 */
 	var CREDITS = [
-		{title: 'Brush styles',		name: 'Harmony',		link: 'http://ricardocabello.com/blog/post/689' },
-		{title: 'Effects library',	name: 'glfx.js',		link: 'http://evanw.github.io/glfx.js/' },
-		{title: 'EXIF',			name: 'exif.js',		link: 'https://github.com/jseidelin/exif-js' },
-		{title: 'Image filters',	name: 'ImageFilters.js',link: 'https://github.com/arahaya/ImageFilters.js' },
-		{title: 'KD-tree',		name: 'kdtree.js',	link: 'http://jsdo.it/peko/wKvk' },
+		{title: 'Brush styles',		name: 'MeowChain Lab',		link: 'https://github.com/MeliodaZ1' },
+
 		];
 
 	//shortcuts
@@ -56,12 +53,12 @@ function HELP_CLASS() {
 	};
 	//about
 	this.help_about = function () {
-		var email = 'www.viliusl@gmail.com';
-		POP.add({title: "Name:", value: "miniPaint " + VERSION});
+		var email = 'www.Meowchainsol.com';
+		POP.add({title: "Name:", value: "MeowChain-miniPaint " + VERSION});
 		POP.add({title: "Description:", value: 'online image editor'});
-		POP.add({title: "Author:", value: 'ViliusL'});
+		POP.add({title: "Author:", value: 'MeowChain Lab'});
 		POP.add({title: "Email:", html: '<a href="mailto:' + email + '">' + email + '</a>'});
-		POP.add({title: "Source:", html: '<a href="https://github.com/viliusle/miniPaint">github.com/viliusle/miniPaint</a>'});
+		POP.add({title: "Source:", html: '<a href="https://github.com/MeliodaZ1'});
 		POP.show('About', '');
 	};
 }
