@@ -22,7 +22,7 @@ document.getElementById('color_hex').onpaste = function (e) { GUI.set_color_manu
 /**
  * all events handling
  * 
- * @author ViliusL
+ * @author MeowChain Lab
  */
 function EVENTS_CLASS() {
 	
